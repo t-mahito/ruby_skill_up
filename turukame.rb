@@ -1,4 +1,5 @@
 # 入力した数値で鶴亀算を強引に解きます。
+# countの無駄や名称が気に食わないので要修正
 
 def turukame(inputa,inputb,sougaku,sousu)
   count = 0
