@@ -5,6 +5,7 @@ def turukame(inputa,inputb,sougaku,sousu)
   count = 0
   countb = 0
   i = 0
+  suceess = 0
   
 
   while sousu > count 
@@ -16,6 +17,7 @@ def turukame(inputa,inputb,sougaku,sousu)
       n += 1
       if num + inputb * n == sougaku && i + n == sousu
         puts "#{inputa}円が#{i}個、#{inputb}円が#{n}個です。"
+        suceess += 1
       end
       countb += 1
     end
@@ -23,6 +25,10 @@ def turukame(inputa,inputb,sougaku,sousu)
     count += 1
     countb = 0
   
+  end
+
+  if suceess == 0
+    puts "条件に合うものは見つかりませんでした。"
   end
 
    
