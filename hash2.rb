@@ -15,13 +15,13 @@ array = []
 3.times do 
 
 
-info = gets.chomp
+info = gets
 
 a,b,c = info
 
-#a = a.to_i
-#b = b.to_i
-#c = c.to_i
+#a = a
+#b = b
+#c = c
 
 if check(a,b,c,array)
   array << [a,b,c]
