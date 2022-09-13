@@ -25,7 +25,7 @@ a,b,c = info
 #b = b.to_i
 #c = c.to_i
 
-puts "#{a}#{b}#{c}"
+puts a
 
 array << [a] 
 array << [b] 
@@ -33,7 +33,7 @@ array << [c]
 array2 = [1,2,3]
 puts array.length
 
-if array.include?(6)
+if array.include?(a)
   puts "yes"
 else
   puts "no"
