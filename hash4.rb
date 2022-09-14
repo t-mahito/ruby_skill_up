@@ -16,7 +16,7 @@ array << b
 
 puts array
 
-if array.include?(1)
+if array.include?(a)
   puts "yes"
 else
   puts "no"
