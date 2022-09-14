@@ -24,7 +24,7 @@ a = a.to_i
 b = b.to_i
 c = c.to_i
 
-if check(array,a,b,c)
+if check(array,a,b,c) && a != b && a != c && b != c
 
  array << a
  array << b
