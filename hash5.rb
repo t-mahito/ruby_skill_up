@@ -1,4 +1,6 @@
 #想定した段階まできた
+#数字を３つ入力し、どれか一つでも被っていたらhashに保存されない。
+#被っていなければ保存される。
 
 def check(array,a,b,c) 
  if array.include?(a) || array.include?(b) || array.include?(c)
