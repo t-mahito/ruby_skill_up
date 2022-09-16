@@ -10,6 +10,8 @@ array << 4
 
 info << array
 
+puts array
+
 array.clear
 
 puts info
