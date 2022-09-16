@@ -13,3 +13,5 @@ info << array
 array.clear
 
 puts info
+puts array
+
