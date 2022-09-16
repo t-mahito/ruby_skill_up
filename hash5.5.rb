@@ -31,4 +31,11 @@ array3 << array
 
 array2 << array
 
+
+
+
+
+puts array
 puts array2
+puts array3
+
