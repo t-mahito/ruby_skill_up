@@ -1,13 +1,11 @@
-# infoは消える
+# infoは消えない！！
 
 array = []
-
-info = []
 
 array << 3
 array << 4
 
-info = array
+info = array.dup
 
 
 
